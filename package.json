@@ -1,0 +1,36 @@
+{
+  "name": "emulauncher",
+  "version": "1.0.0",
+  "description": "A beautifully crafted CLI tool for running/launching your Android Virtual Devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresggarcia/emulauncher.git"
+  },
+  "bin": {
+    "emulauncher": "./index.js"
+  },
+  "keywords": [
+    "avd",
+    "android",
+    "emulator",
+    "cli",
+    "nodejs"
+  ],
+  "author": "Andres Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresggarcia/emulauncher/issues"
+  },
+  "homepage": "https://github.com/andresggarcia/emulauncher#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.2.0"
+  }
+}
